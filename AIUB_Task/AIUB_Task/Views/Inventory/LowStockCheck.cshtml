@@ -1,0 +1,176 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "Product Details";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-lg mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="mb-0">Product Details</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group mb-4">
+                            <label for="categoryDropdown" class="form-label">Select Category:</label>
+                            <select id="categoryDropdown" class="form-control">
+                                <option value="">All Categories</option>
+                                @foreach (var category in ViewBag.Categories)
+                                {
+                                    <option value="@category.Id">@category.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="productList">
+                    @foreach (var product in Model)
+                    {
+                        <div class="col-md-6 mb-4 product-item" data-category="@product.CategoryId">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-title">@product.Name</h4>
+                                    <hr />
+                                    <dl class="row">
+                                        <dt class="col-sm-4">Description</dt>
+                                        <dd class="col-sm-8">@product.Description</dd>
+
+                                        <dt class="col-sm-4">Quantity</dt>
+                                        <dd class="col-sm-8">
+                                            <span class="product-quantity">@product.Quantity</span>
+                                            @if (product.Quantity < 3)
+                                            {
+                                                <span class="text-danger">(Low Stock)</span>
+                                            }
+                                        </dd>
+
+                                        <dt class="col-sm-4">Price</dt>
+                                        <dd class="col-sm-8">@product.price</dd>
+
+                                        <dt class="col-sm-4">Category</dt>
+                                        <dd class="col-sm-8">
+                                            @foreach (var c in ViewBag.Categories)
+                                            {
+                                                if (c.Id == product.CategoryId)
+                                                {
+                                                    @c.Name
+                                                }
+                                            }
+                                        </dd>
+
+                                        <dt class="col-sm-4">Color</dt>
+                                        <dd class="col-sm-8">
+                                            @foreach (var color in ViewBag.ProductColor)
+                                            {
+                                                if (color.ProductId == product.Id)
+                                                {
+                                                    foreach (var c in ViewBag.Colors)
+                                                    {
+                                                        if (c.Id == color.ColorId && color.ProductId == product.Id)
+                                                        {
+                                                            <div>@c.Name</div>
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        </dd>
+
+                                        <dt class="col-sm-4">Size</dt>
+                                        <dd class="col-sm-8">
+                                            @foreach (var size in ViewBag.ProductSize)
+                                            {
+                                                if (size.ProductId == product.Id)
+                                                {
+                                                    foreach (var c in ViewBag.Sizes)
+                                                    {
+                                                        if (c.id == size.SizeId && size.ProductId == product.Id)
+                                                        {
+                                                            <div>@c.sizeOfProduct</div>
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        </dd>
+
+                                        <dt class="col-sm-4">Image</dt>
+                                        <dd class="col-sm-8">
+                                            @{
+                                                string imageSrc = null;
+                                                if (product.ImageData != null)
+                                                {
+                                                    var base64Image = Convert.ToBase64String(product.ImageData);
+                                                    imageSrc = $"data:image/jpg;base64,{base64Image}";
+                                                }
+                                            }
+                                            @if (imageSrc != null)
+                                            {
+                                                <img src="@imageSrc" alt="Product Image" class="img-fluid" />
+                                            }
+                                            else
+                                            {
+                                                <p>No image available</p>
+                                            }
+                                        </dd>
+
+                                        <dt class="col-sm-4">Add Quantity</dt>
+                                        <dd class="col-sm-8">
+                                            <input type="number" id="quantity-@product.Id" class="form-control mb-2" placeholder="Enter quantity" />
+                                            <button class="btn btn-primary add-quantity-btn" onclick="updateQuantity(@product.Id)">Add Quantity</button>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function updateQuantity(productId) {
+            var newQuantity = document.getElementById("quantity-" + productId).value;
+            $.ajax({
+                url: '/Inventory/UpdateProductQuantity',
+                type: 'POST',
+                data: { productId: productId, quantity: newQuantity },
+                success: function (response) {
+                    if (response.success) {
+                        alert("Quantity updated successfully");
+                        location.reload();
+                    } else {
+                        alert("Failed to update quantity: " + response.errorMessage);
+                    }
+                },
+                error: function () {
+                    alert("An error occurred while updating quantity");
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            $('#categoryDropdown').change(function () {
+                var selectedCategory = $(this).val();
+                $('.product-item').each(function () {
+                    var category = $(this).data('category');
+                    if (selectedCategory === '' || category == selectedCategory) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

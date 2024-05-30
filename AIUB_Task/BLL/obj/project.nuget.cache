@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "F9u3/PKjqnp8Q5YanpKhsQMf0woDoRhkPHa5QNIiLsevJ1skZ1asNzoPiL+A8guiHJ7FLuzR1KuqD7jTfDnsgA==",
+  "success": true,
+  "projectFilePath": "E:\\code\\Aiub Task\\Aiub_Task\\BLL\\BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,81 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AvailableCupon</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card mt-5">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Available Coupons</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="status" class="form-label">Filter by Status:</label>
+                            <select id="status" class="form-select" onchange="filterByStatus(this.value)">
+                                <option value="">All</option>
+                                <option value="Active">Active</option>
+                                <option value="Inactive">Inactive</option>
+                                <option value="Expired">Expired</option>
+                            </select>
+                        </div>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Coupon Id</th>
+                                    <th>Coupon Name</th>
+                                    <th>Coupon Percentage</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var coupon in Model)
+                                {
+                                    <tr>
+                                        <td>@coupon.Id</td>
+                                        <td>@coupon.Name</td>
+                                        <td>@coupon.Perchentage</td>
+                                        <td>@coupon.Status</td>
+                                        <td>
+                                            <input name="no" value="Edit" type="button" onclick="window.location.href='@Url.Action("UpdateCupon", "Cupon", new { id = coupon.Id })'" class="btn btn-primary btn-sm" />
+                                            <input name="no" value="Delete" type="button" onclick="window.location.href='@Url.Action("DeleteCupon", "Cupon", new { id = coupon.Id })'" class="btn btn-danger btn-sm" />
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function filterByStatus(status) {
+            var rows = document.querySelectorAll("table tr");
+            rows.forEach(function (row, index) {
+                if (index !== 0) {
+                    var cell = row.cells[3];
+                    if (status === "" || cell.textContent.trim() === status) {
+                        row.style.display = "";
+                    } else {
+                        row.style.display = "none";
+                    }
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>

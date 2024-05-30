@@ -1,0 +1,88 @@
+﻿@model AIUB_Task.BLL.DTOs.ProductDTO
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Product</title>
+    <!-- Include Bootstrap CSS from a CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-McsIOu1gIaOk5j6rSE+BtTg3BgXYCZ9y4jjbcK/p20t6EijVske0Dj6mo/exXX1E" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Add Product</h2>
+        <form action="@Url.Action("AddProduct", "Product")" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <input type="text" name="Name" placeholder="Name" value="@(Model == null ? "" : Model.Name)" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Name)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="Image">Image:</label>
+                <input type="file" name="Image" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Image)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="Description">Description:</label>
+                <textarea name="Description" placeholder="Description" class="form-control"></textarea>
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Description)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="Quantity">Quantity:</label>
+                <input type="number" name="Quantity" placeholder="Quantity" value="@(Model == null ? "" : Model.Quantity.ToString())" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Quantity)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="Price">Price:</label>
+                <input type="number" name="Price" placeholder="Price" value="@(Model == null ? "" : Model.price.ToString())" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.price)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="CategoryId">Category:</label>
+                <select name="CategoryId" class="form-control">
+                    <option value="">Select a category</option>
+                    @foreach (var category in ViewBag.categories)
+                    {
+                        <option value="@category.Id">@category.Name</option>
+                    }
+                </select>
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.CategoryId)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="Colors">Available Colors:</label><br>
+                @foreach (var color in ViewBag.Colors)
+                {
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="Colors" value="@color.Id" class="form-check-input">
+                        <label class="form-check-label">@color.Name</label>
+                    </div>
+                }
+            </div>
+
+            <div class="form-group">
+                <label for="Sizes">Available Sizes(In Inches):</label><br>
+                @foreach (var size in ViewBag.Sizes)
+                {
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="Sizes" value="@size.id" class="form-check-input">
+                        <label class="form-check-label">@size.sizeOfProduct</label>
+                    </div>
+                }
+            </div>
+
+
+            <input type="submit" value="Add Product" class="btn btn-success" />
+        </form>
+    </div>
+
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha384-IQsoLXlRxPsmv3TmQ6QsG7B7U5Fu15lfd5I1iD5bctCksRaHOz5Qe6Ig5VV0lLtT" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4Agp5K9MX5vGuq7KYoW5Fzts5I5Pbyti+Xblnm7eF7FjEbm8Ul8A" crossorigin="anonymous"></script>
+</body>
+</html>

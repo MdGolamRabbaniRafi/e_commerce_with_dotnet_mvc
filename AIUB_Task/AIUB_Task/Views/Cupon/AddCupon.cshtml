@@ -1,0 +1,34 @@
+﻿@model AIUB_Task.DTO.CuponDTO
+
+<h2>Add Cupon</h2>
+
+<form action="" method="post">
+    <fieldset>
+        <legend>Cupon Details</legend>
+        <div class="form-group">
+            <label for="Name">Cupon Name:</label>
+            <input type="text" id="Name" name="Name" placeholder="Enter Cupon Name" value="" class="form-control" />
+            <span class="text-danger">@Html.ValidationMessageFor(model => model.Name)</span>
+        </div>
+        <div class="form-group">
+            <label for="Percentage">Discount:</label>
+            <input type="number" id="Perchentage" name="Perchentage" placeholder="Enter Cupon Percentage" value="@Model?.Perchentage" class="form-control" />
+            <span class="text-danger">@Html.ValidationMessageFor(model => model.Perchentage)</span>
+        </div>
+        <div class="form-group">
+            <label for="Expire_date">Expiration Date:</label>
+            <input type="date" id="ExpireDate" name="Expire_date" value="@Model?.Expire_date?.ToString(" yyyy-MM-dd")" class="form-control" />
+            <span class="text-danger">@Html.ValidationMessageFor(model => model.Expire_date)</span>
+        </div>
+        <div class="form-group">
+            <label for="Status">Status:</label>
+            <select id="Status" name="Status" class="form-control">
+                <option value="">Select Status</option>
+                <option value="Active" @(Model?.Status == "Active" ? "selected" : "")>Active</option>
+                <option value="Inactive" @(Model?.Status == "Inactive" ? "selected" : "")>Inactive</option>
+            </select>
+            <span class="text-danger">@Html.ValidationMessageFor(model => model.Status)</span>
+        </div>
+        <button type="submit" class="btn btn-primary">Add</button>
+    </fieldset>
+</form>

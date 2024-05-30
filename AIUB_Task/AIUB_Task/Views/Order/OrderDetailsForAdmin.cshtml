@@ -1,0 +1,158 @@
+﻿@{ ViewBag.Title = "Order Details"; }
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow-lg">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="mb-0">Order Details</h2>
+                </div>
+                <div class="card-body">
+                    @if (Model.Order != null)
+                    {
+                        <div class="mb-4">
+                            <h4>Order ID: @Model.Order.Id</h4>
+                            <p><strong>Date:</strong> @Model.Order.Date</p>
+                            <p><strong>Status:</strong> @Model.Order.Status</p>
+                            <p><strong>Total Order Price:</strong> @Model.Order.TotalOrderPrice</p>
+                        </div>
+
+                        <h3 class="mb-3">Products in this Order:</h3>
+                        <table class="table table-striped table-bordered">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Product ID</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Price</th>
+                                    <th>Category</th>
+                                    <th>Color</th>
+                                    <th>Size</th>
+                                    <th>Image</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var product in Model.Products)
+                                {
+                                    <tr>
+                                        <td>@product.Id</td>
+                                        <td>@product.Name</td>
+                                        <td>@product.Description</td>
+                                        <td>@product.price</td>
+                                        <td>
+                                            @foreach (var cat in ViewBag.category)
+                                            {
+                                                if (cat.Id == product.CategoryId)
+                                                {
+                                                    @cat.Name
+                                                }
+                                            }
+                                        </td>
+                                        <td>
+                                            @foreach (var a in ViewBag.ProductColor)
+                                            {
+                                                if (a.ProductId == product.Id && a.OrderId == Model.Order.Id)
+                                                {
+                                                    foreach (var co in ViewBag.color)
+                                                    {
+                                                        if (co.Id == a.ColorId)
+                                                        {
+                                                            @co.Name
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        </td>
+                                        <td>
+                                            @foreach (var a in ViewBag.ProductSize)
+                                            {
+                                                if (a.ProductId == product.Id && a.OrderId == Model.Order.Id)
+                                                {
+                                                    foreach (var si in ViewBag.size)
+                                                    {
+                                                        if (si.id == a.SizeId)
+                                                        {
+                                                            @si.sizeOfProduct
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (product.ImageData != null)
+                                            {
+                                                var base64Image = Convert.ToBase64String(product.ImageData);
+                                                <img src="data:image/jpg;base64,@base64Image" alt="Product Image" class="img-fluid" style="max-width: 100px; max-height: 100px;" />
+                                            }
+                                            else
+                                            {
+                                                <p class="text-muted">No image available</p>
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                        <h3 class="mt-5 mb-3">User Details</h3>
+                        <table class="table table-bordered">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Phone Number</th>
+                                    <th>Email</th>
+                                    <th>Gender</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>@ViewBag.user.Name</td>
+                                    <td>@Model.Order.Number</td>
+                                    <td>@ViewBag.user.Email</td>
+                                    <td>@ViewBag.user.Gender</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="mt-4">
+                            <h3>Update Order Status</h3>
+                            <div class="mb-3">
+                                <select id="statusDropdown" class="form-select">
+                                    <option value="Placed" @(Model.Order.Status == "Placed" ? "selected" : "")>Placed</option>
+                                    <option value="Shipped" @(Model.Order.Status == "Shipped" ? "selected" : "")>Shipped</option>
+                                    <option value="Delivered" @(Model.Order.Status == "Delivered" ? "selected" : "")>Delivered</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary" onclick="updateStatus(@Model.Order.Id)">Update</button>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-center">No order details available.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function updateStatus(orderId) {
+        var newStatus = document.getElementById("statusDropdown").value;
+        $.ajax({
+            url: '/Order/UpdateOrderStatus',
+            type: 'POST',
+            data: { orderId: orderId, newStatus: newStatus },
+            success: function (response) {
+                if (response.success) {
+                    alert("Status updated successfully");
+                } else {
+                    alert("Failed to update status: " + response.errorMessage);
+                }
+            },
+            error: function () {
+                alert("An error occurred while updating status");
+            }
+        });
+    }
+</script>

@@ -1,0 +1,1334 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\code\\Aiub Task\\AIUB_Task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\bll\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\cupon\\deletecupon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\cupon\\deletecupon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\deleteproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\deleteproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\inventory\\searchorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\inventory\\searchorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\inventory\\lowstockcheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\inventory\\lowstockcheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\bll\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\cupon\\availablecupon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\cupon\\availablecupon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\cupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\cupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\bll\\dtos\\cartproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\dtos\\cartproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\home\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\home\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\order\\orderdetailsforcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\order\\orderdetailsforcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\order\\customerpendingorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\order\\customerpendingorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\orderplaced.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\orderplaced.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\cupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\cupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\productordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\productordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\productordersizemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\productordersizemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\dal\\ef\\productcolorordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\productcolorordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\dal\\ef\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\dal\\ef\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\dal\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|e:\\code\\aiub task\\aiub_task\\aiub_task\\bll\\dtos\\cupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\dtos\\cupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\cupon\\addcupon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\cupon\\addcupon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\dal\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\controllers\\cuponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\controllers\\cuponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\cupon\\updatecupon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\cupon\\updatecupon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\order\\orderdetailsforadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\order\\orderdetailsforadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\inventory\\_orderlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\inventory\\_orderlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\searchproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\searchproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\searchallproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\searchallproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\bll\\services\\cuponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\services\\cuponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\dal\\repos\\cuponrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\repos\\cuponrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\classes\\mapperclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\classes\\mapperclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\dal\\repos\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\repos\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\order\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\order\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\classes\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\classes\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\classes\\usercheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\classes\\usercheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\classes\\checkuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\classes\\checkuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\classes\\orderplaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\classes\\orderplaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\classes\\admincheak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\classes\\admincheak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\bll\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\bll\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\classes\\fileextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\classes\\fileextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\dal\\repos\\authrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\dal\\repos\\authrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|E:\\code\\Aiub Task\\AIUB_Task\\aiub_task\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C218291-B2B1-46A5-B79E-8D041FC4BE1F}|AIUB_Task\\AIUB_Task.csproj|solutionrelative:aiub_task\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignupDTO.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\SignupDTO.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\DTOs\\SignupDTO.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\SignupDTO.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\DTOs\\SignupDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:22:54.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Inventory\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Inventory\\Index.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Inventory\\Index.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Inventory\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T14:14:19.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\Index.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T11:20:55.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AIUB_Task\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAADoBAABAAAAAAAAhwE0BAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:16:28.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteCupon.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Cupon\\DeleteCupon.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Cupon\\DeleteCupon.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Cupon\\DeleteCupon.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Cupon\\DeleteCupon.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T14:01:23.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LowStockCheck.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Inventory\\LowStockCheck.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Inventory\\LowStockCheck.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Inventory\\LowStockCheck.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Inventory\\LowStockCheck.cshtml",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAmwLAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T14:49:32.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteProduct.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\DeleteProduct.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\DeleteProduct.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\DeleteProduct.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\DeleteProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwCEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T04:52:47.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderDetailsForCustomer.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Order\\OrderDetailsForCustomer.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Order\\OrderDetailsForCustomer.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Order\\OrderDetailsForCustomer.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Order\\OrderDetailsForCustomer.cshtml",
+              "ViewState": "AQIAAAUAAACAzczMzMwnwBcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T14:33:33.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchOrders.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Inventory\\SearchOrders.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Inventory\\SearchOrders.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Inventory\\SearchOrders.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Inventory\\SearchOrders.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAmwEkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T17:42:43.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewCart.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\ViewCart.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\ViewCart.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\ViewCart.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\ViewCart.cshtml",
+              "ViewState": "AQIAAHQAAAAAAAAAAACEvVoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T14:00:23.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\DTOs\\OrderDTO.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\OrderDTO.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\DTOs\\OrderDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:04:59.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AvailableCupon.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Cupon\\AvailableCupon.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Cupon\\AvailableCupon.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Cupon\\AvailableCupon.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Cupon\\AvailableCupon.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T08:39:53.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Home\\AdminDashboard.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Home\\AdminDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T11:05:35.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Cupon\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Cupon\\Index.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Cupon\\Index.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Cupon\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T08:04:09.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartProductDTO.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\CartProductDTO.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\DTOs\\CartProductDTO.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\CartProductDTO.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\DTOs\\CartProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:48:08.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDashboard.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\UserDashboard.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Home\\UserDashboard.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\UserDashboard.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Home\\UserDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T13:07:13.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerPendingOrder.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Order\\CustomerPendingOrder.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Order\\CustomerPendingOrder.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Order\\CustomerPendingOrder.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Order\\CustomerPendingOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T15:04:38.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderPlaced.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\OrderPlaced.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\OrderPlaced.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\OrderPlaced.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\OrderPlaced.cshtml",
+              "ViewState": "AQIAAEEAAABARDMzMzP7v18AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T23:22:53.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PlaceOrder.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\PlaceOrder.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\PlaceOrder.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\PlaceOrder.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\PlaceOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T01:16:15.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Model1.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\Model1.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Model1.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\Model1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:33:16.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\User.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\User.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\User.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:34:49.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductOrderMapper.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\ProductOrderMapper.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\ProductOrderMapper.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\ProductOrderMapper.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\ProductOrderMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:34:22.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Product.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\Product.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Product.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:33:27.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cupon.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Cupon.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\Cupon.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Cupon.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\Cupon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:33:10.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductColor.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\ProductColor.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\ProductColor.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\ProductColor.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\ProductColor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:33:52.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductOrderSizeMapper.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\ProductOrderSizeMapper.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\ProductOrderSizeMapper.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\ProductOrderSizeMapper.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\ProductOrderSizeMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:34:29.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductSize.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\ProductSize.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\ProductSize.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\ProductSize.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\ProductSize.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:34:37.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Size.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Size.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\Size.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Size.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\Size.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:34:43.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Color.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Color.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\Color.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Color.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\Color.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:33:03.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductColorOrderMapper.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\ProductColorOrderMapper.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\ProductColorOrderMapper.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\ProductColorOrderMapper.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\ProductColorOrderMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T13:35:04.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Category.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\Category.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Category.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:32:57.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Order.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\Order.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Order.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\Order.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvygAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:47:05.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CuponDTO.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\CuponDTO.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\DTOs\\CuponDTO.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\CuponDTO.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\DTOs\\CuponDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:20:10.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Model1.edmx",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\EF\\Model1.edmx",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\EF\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "AIUB_Task\\DAL\\EF\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-26T01:10:12.951Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\Services\\ProductService.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\Services\\ProductService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAlwCAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:32:34.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\Repos\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\Repos\\ProductRepo.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\Repos\\ProductRepo.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\Repos\\ProductRepo.cs",
+              "ViewState": "AQIAAHgAAAAAQjMzMzP7v38AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:33:33.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T15:05:53.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddCupon.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Cupon\\AddCupon.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Cupon\\AddCupon.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Cupon\\AddCupon.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Cupon\\AddCupon.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T08:11:54.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CuponController.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Controllers\\CuponController.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Controllers\\CuponController.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Controllers\\CuponController.cs",
+              "RelativeToolTip": "AIUB_Task\\Controllers\\CuponController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:36:10.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateCupon.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Cupon\\UpdateCupon.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Cupon\\UpdateCupon.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Cupon\\UpdateCupon.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Cupon\\UpdateCupon.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwB4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T04:15:53.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrderDetailsForAdmin.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Order\\OrderDetailsForAdmin.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Order\\OrderDetailsForAdmin.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Order\\OrderDetailsForAdmin.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Order\\OrderDetailsForAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T15:54:38.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Controllers\\InventoryController.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "AIUB_Task\\Controllers\\InventoryController.cs",
+              "ViewState": "AQIAABYAAACAEgAAAAAQwBcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:14:07.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AIUB_Task\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACMAAAAAPjMzMzPzv1IAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T06:07:56.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Controllers\\OrderController.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "AIUB_Task\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAKEAAAAARAAAAAAIwJIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:01:40.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_OrderListPartial.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Inventory\\_OrderListPartial.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Inventory\\_OrderListPartial.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Inventory\\_OrderListPartial.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Inventory\\_OrderListPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T17:45:44.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\Search.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\Search.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\Search.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\Search.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAABmvY0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T18:38:55.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T13:02:31.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\packages.config",
+              "RelativeDocumentMoniker": "AIUB_Task\\packages.config",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\packages.config",
+              "RelativeToolTip": "AIUB_Task\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-26T01:27:56.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\Services\\OrderService.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\Services\\OrderService.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\Services\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:36:34.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\DTOs\\ProductDTO.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\DTOs\\ProductDTO.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowCQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:58:42.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SearchProduct.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\SearchProduct.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\SearchProduct.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\SearchProduct.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\SearchProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T17:30:25.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:29:54.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SearchAllProduct.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\SearchAllProduct.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\SearchAllProduct.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\SearchAllProduct.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\SearchAllProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T13:24:42.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CuponService.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\Services\\CuponService.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\Services\\CuponService.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\Services\\CuponService.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\Services\\CuponService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwB4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:23:02.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CuponRepo.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\Repos\\CuponRepo.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\Repos\\CuponRepo.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\Repos\\CuponRepo.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\Repos\\CuponRepo.cs",
+              "ViewState": "AQIAACoAAACANDMzMzMTwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:22:00.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\DTOs\\LoginDTO.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:22:34.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MapperClass.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\MapperClass.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Classes\\MapperClass.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\MapperClass.cs",
+              "RelativeToolTip": "AIUB_Task\\Classes\\MapperClass.cs",
+              "ViewState": "AQIAADMAAADg/////38wwDgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:57:53.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\Repos\\OrderRepo.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\Repos\\OrderRepo.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\Repos\\OrderRepo.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\Repos\\OrderRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:41:32.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\Details.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T13:34:09.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Order\\Error.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Order\\Error.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Order\\Error.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Order\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T00:51:52.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "UserCheck.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\UserCheck.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Classes\\UserCheck.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\UserCheck.cs",
+              "RelativeToolTip": "AIUB_Task\\Classes\\UserCheck.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:17:19.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Logged.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\Logged.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Classes\\Logged.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\Logged.cs",
+              "RelativeToolTip": "AIUB_Task\\Classes\\Logged.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:57:11.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Home\\Login.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T06:15:58.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CheckUser.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\CheckUser.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Classes\\CheckUser.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\CheckUser.cs",
+              "RelativeToolTip": "AIUB_Task\\Classes\\CheckUser.cs",
+              "ViewState": "AQIAAAwAAACUmZmZmdkjwBgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:49:34.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "OrderPlaced.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\OrderPlaced.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Classes\\OrderPlaced.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\OrderPlaced.cs",
+              "RelativeToolTip": "AIUB_Task\\Classes\\OrderPlaced.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T23:18:31.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\App_Start\\BundleConfig.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "AIUB_Task\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:20:13.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\App_Start\\RouteConfig.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "AIUB_Task\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T06:16:24.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "AIUB_Task\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T01:16:56.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AdminCheak.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\AdminCheak.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Classes\\AdminCheak.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\AdminCheak.cs",
+              "RelativeToolTip": "AIUB_Task\\Classes\\AdminCheak.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:12:42.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "AddCategory.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\AddCategory.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\AddCategory.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\AddCategory.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\AddCategory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T11:22:56.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\BLL\\Services\\AuthServices.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\BLL\\Services\\AuthServices.cs",
+              "RelativeToolTip": "AIUB_Task\\BLL\\Services\\AuthServices.cs",
+              "ViewState": "AQIAAAUAAACAMzMzMzMLwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:47:50.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Product\\AddProduct.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Product\\AddProduct.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Product\\AddProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T12:58:31.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "FileExtention.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\FileExtention.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\Classes\\FileExtention.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Classes\\FileExtention.cs",
+              "RelativeToolTip": "AIUB_Task\\Classes\\FileExtention.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:46:45.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Web.config",
+              "RelativeDocumentMoniker": "AIUB_Task\\Web.config",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Web.config",
+              "RelativeToolTip": "AIUB_Task\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAD4AQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-24T10:13:03.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T08:51:22.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Home\\SignUp.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\SignUp.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Home\\SignUp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T06:18:34.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T13:02:26.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "AuthRepo.cs",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\Repos\\AuthRepo.cs",
+              "RelativeDocumentMoniker": "AIUB_Task\\DAL\\Repos\\AuthRepo.cs",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\DAL\\Repos\\AuthRepo.cs",
+              "RelativeToolTip": "AIUB_Task\\DAL\\Repos\\AuthRepo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:09:40.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAABYPQoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T09:33:36.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "AIUB_Task\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\code\\Aiub Task\\AIUB_Task\\AIUB_Task\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "AIUB_Task\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T09:31:46.824Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

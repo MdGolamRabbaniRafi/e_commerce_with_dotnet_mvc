@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AIUB_TaskModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Products_Category" FromRole="Category" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Color">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ProductColorOrderMappers" Relationship="Self.FK_ProductColorOrderMapper_Color" FromRole="Color" ToRole="ProductColorOrderMapper" />
+    <NavigationProperty Name="ProductColors" Relationship="Self.FK_ProductColors_Color" FromRole="Color" ToRole="ProductColors" />
+  </EntityType>
+  <EntityType Name="Cupon">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Perchentage" Type="Int32" />
+    <Property Name="Expire_date" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TotalOrderPrice" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Number" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Quantity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ProductColorOrderMappers" Relationship="Self.FK_ProductColorOrderMapper_ProductColorOrderMapper" FromRole="Orders" ToRole="ProductColorOrderMapper" />
+    <NavigationProperty Name="ProductOrderMappers" Relationship="Self.FK_ProductOrderMapper_Orders" FromRole="Orders" ToRole="ProductOrderMapper" />
+    <NavigationProperty Name="ProductOrderSizeMappers" Relationship="Self.FK_ProductOrderSizeMapper_Orders" FromRole="Orders" ToRole="ProductOrderSizeMapper" />
+  </EntityType>
+  <EntityType Name="ProductColorOrderMapper">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="OrderId" Type="Int32" />
+    <Property Name="ColorId" Type="Int32" />
+    <NavigationProperty Name="Color" Relationship="Self.FK_ProductColorOrderMapper_Color" FromRole="ProductColorOrderMapper" ToRole="Color" />
+    <NavigationProperty Name="Order" Relationship="Self.FK_ProductColorOrderMapper_ProductColorOrderMapper" FromRole="ProductColorOrderMapper" ToRole="Orders" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_ProductColorOrderMapper_Products" FromRole="ProductColorOrderMapper" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="ProductColor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="ColorId" Type="Int32" />
+    <NavigationProperty Name="Color" Relationship="Self.FK_ProductColors_Color" FromRole="ProductColors" ToRole="Color" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_ProductColors_Products" FromRole="ProductColors" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="ProductOrderMapper">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="OrderId" Type="Int32" />
+    <NavigationProperty Name="Order" Relationship="Self.FK_ProductOrderMapper_Orders" FromRole="ProductOrderMapper" ToRole="Orders" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_ProductOrderMapper_ProductOrderMapper" FromRole="ProductOrderMapper" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="ProductOrderSizeMapper">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="SizeId" Type="Int32" />
+    <Property Name="OrderId" Type="Int32" />
+    <NavigationProperty Name="Order" Relationship="Self.FK_ProductOrderSizeMapper_Orders" FromRole="ProductOrderSizeMapper" ToRole="Orders" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_ProductOrderSizeMapper_Products" FromRole="ProductOrderSizeMapper" ToRole="Products" />
+    <NavigationProperty Name="Size" Relationship="Self.FK_ProductOrderSizeMapper_Sizes" FromRole="ProductOrderSizeMapper" ToRole="Sizes" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Category_Id" Type="Int32" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Products_Category" FromRole="Products" ToRole="Category" />
+    <NavigationProperty Name="ProductColorOrderMappers" Relationship="Self.FK_ProductColorOrderMapper_Products" FromRole="Products" ToRole="ProductColorOrderMapper" />
+    <NavigationProperty Name="ProductColors" Relationship="Self.FK_ProductColors_Products" FromRole="Products" ToRole="ProductColors" />
+    <NavigationProperty Name="ProductOrderMappers" Relationship="Self.FK_ProductOrderMapper_ProductOrderMapper" FromRole="Products" ToRole="ProductOrderMapper" />
+    <NavigationProperty Name="ProductOrderSizeMappers" Relationship="Self.FK_ProductOrderSizeMapper_Products" FromRole="Products" ToRole="ProductOrderSizeMapper" />
+    <NavigationProperty Name="ProductSizes" Relationship="Self.FK_ProductSize_Products" FromRole="Products" ToRole="ProductSize" />
+  </EntityType>
+  <EntityType Name="ProductSize">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="SizeId" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_ProductSize_Products" FromRole="ProductSize" ToRole="Products" />
+    <NavigationProperty Name="Size" Relationship="Self.FK_ProductSize_Sizes" FromRole="ProductSize" ToRole="Sizes" />
+  </EntityType>
+  <EntityType Name="Size">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sizeOfProduct" Type="Int32" />
+    <NavigationProperty Name="ProductOrderSizeMappers" Relationship="Self.FK_ProductOrderSizeMapper_Sizes" FromRole="Sizes" ToRole="ProductOrderSizeMapper" />
+    <NavigationProperty Name="ProductSizes" Relationship="Self.FK_ProductSize_Sizes" FromRole="Sizes" ToRole="ProductSize" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="User_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_Products_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Products" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="Category_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductColorOrderMapper_Color">
+    <End Role="Color" Type="Self.Color" Multiplicity="0..1" />
+    <End Role="ProductColorOrderMapper" Type="Self.ProductColorOrderMapper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Color">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductColorOrderMapper">
+        <PropertyRef Name="ColorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductColors_Color">
+    <End Role="Color" Type="Self.Color" Multiplicity="0..1" />
+    <End Role="ProductColors" Type="Self.ProductColor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Color">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductColors">
+        <PropertyRef Name="ColorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductColorOrderMapper_ProductColorOrderMapper">
+    <End Role="Orders" Type="Self.Order" Multiplicity="0..1" />
+    <End Role="ProductColorOrderMapper" Type="Self.ProductColorOrderMapper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductColorOrderMapper">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductOrderMapper_Orders">
+    <End Role="Orders" Type="Self.Order" Multiplicity="0..1" />
+    <End Role="ProductOrderMapper" Type="Self.ProductOrderMapper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductOrderMapper">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductOrderSizeMapper_Orders">
+    <End Role="Orders" Type="Self.Order" Multiplicity="0..1" />
+    <End Role="ProductOrderSizeMapper" Type="Self.ProductOrderSizeMapper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductOrderSizeMapper">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductColorOrderMapper_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="ProductColorOrderMapper" Type="Self.ProductColorOrderMapper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductColorOrderMapper">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductColors_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="ProductColors" Type="Self.ProductColor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductColors">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductOrderMapper_ProductOrderMapper">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="ProductOrderMapper" Type="Self.ProductOrderMapper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductOrderMapper">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductOrderSizeMapper_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="ProductOrderSizeMapper" Type="Self.ProductOrderSizeMapper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductOrderSizeMapper">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductOrderSizeMapper_Sizes">
+    <End Role="Sizes" Type="Self.Size" Multiplicity="0..1" />
+    <End Role="ProductOrderSizeMapper" Type="Self.ProductOrderSizeMapper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sizes">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ProductOrderSizeMapper">
+        <PropertyRef Name="SizeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductSize_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="ProductSize" Type="Self.ProductSize" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductSize">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductSize_Sizes">
+    <End Role="Sizes" Type="Self.Size" Multiplicity="0..1" />
+    <End Role="ProductSize" Type="Self.ProductSize" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sizes">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ProductSize">
+        <PropertyRef Name="SizeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AIUB_TaskEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Colors" EntityType="Self.Color" />
+    <EntitySet Name="Cupons" EntityType="Self.Cupon" />
+    <EntitySet Name="Orders" EntityType="Self.Order" />
+    <EntitySet Name="ProductColorOrderMappers" EntityType="Self.ProductColorOrderMapper" />
+    <EntitySet Name="ProductColors" EntityType="Self.ProductColor" />
+    <EntitySet Name="ProductOrderMappers" EntityType="Self.ProductOrderMapper" />
+    <EntitySet Name="ProductOrderSizeMappers" EntityType="Self.ProductOrderSizeMapper" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="ProductSizes" EntityType="Self.ProductSize" />
+    <EntitySet Name="Sizes" EntityType="Self.Size" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Products_Category" Association="Self.FK_Products_Category">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductColorOrderMapper_Color" Association="Self.FK_ProductColorOrderMapper_Color">
+      <End Role="Color" EntitySet="Colors" />
+      <End Role="ProductColorOrderMapper" EntitySet="ProductColorOrderMappers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductColors_Color" Association="Self.FK_ProductColors_Color">
+      <End Role="Color" EntitySet="Colors" />
+      <End Role="ProductColors" EntitySet="ProductColors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductColorOrderMapper_ProductColorOrderMapper" Association="Self.FK_ProductColorOrderMapper_ProductColorOrderMapper">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="ProductColorOrderMapper" EntitySet="ProductColorOrderMappers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductOrderMapper_Orders" Association="Self.FK_ProductOrderMapper_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="ProductOrderMapper" EntitySet="ProductOrderMappers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductOrderSizeMapper_Orders" Association="Self.FK_ProductOrderSizeMapper_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="ProductOrderSizeMapper" EntitySet="ProductOrderSizeMappers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductColorOrderMapper_Products" Association="Self.FK_ProductColorOrderMapper_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductColorOrderMapper" EntitySet="ProductColorOrderMappers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductColors_Products" Association="Self.FK_ProductColors_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductColors" EntitySet="ProductColors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductOrderMapper_ProductOrderMapper" Association="Self.FK_ProductOrderMapper_ProductOrderMapper">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductOrderMapper" EntitySet="ProductOrderMappers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductOrderSizeMapper_Products" Association="Self.FK_ProductOrderSizeMapper_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductOrderSizeMapper" EntitySet="ProductOrderSizeMappers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductOrderSizeMapper_Sizes" Association="Self.FK_ProductOrderSizeMapper_Sizes">
+      <End Role="Sizes" EntitySet="Sizes" />
+      <End Role="ProductOrderSizeMapper" EntitySet="ProductOrderSizeMappers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductSize_Products" Association="Self.FK_ProductSize_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductSize" EntitySet="ProductSizes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductSize_Sizes" Association="Self.FK_ProductSize_Sizes">
+      <End Role="Sizes" EntitySet="Sizes" />
+      <End Role="ProductSize" EntitySet="ProductSizes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

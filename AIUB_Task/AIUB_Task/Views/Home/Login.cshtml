@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+<h5><a href="/Home/SignUp">Signup</a></h5>
+
+<h2>Login                            </h2>
+<form action="" method="post">
+
+    <fieldset>
+        <legend></legend>
+        <div class="form-group">
+            Email: <input type="text" name="Email" placeholder="Email" value="@(Model==null ? "":Model.Email)" class="form-control" />
+            <span class="text-danger">@Html.ValidationMessage("Email")</span>
+        </div>
+
+        <div class="form-group">
+            Password: <input type="Password" name="Password" placeholder="Password" value="@(Model==null ? "":Model.Password)" class="form-control" />
+            <span class="text-danger">@Html.ValidationMessage("Password")</span>
+        </div>
+
+        <button type="submit" class="btn btn-danger">Login</button>
+
+    </fieldset>
+</form>
+<input name="no" value="Guest" type="button" onclick="window.location.href='@Url.Action("Auth", "Home")'" />
+

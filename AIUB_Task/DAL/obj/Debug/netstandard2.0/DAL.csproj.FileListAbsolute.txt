@@ -1,0 +1,10 @@
+E:\code\Aiub Task\AIUB_Task\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+E:\code\Aiub Task\AIUB_Task\DAL\bin\Debug\netstandard2.0\DAL.dll
+E:\code\Aiub Task\AIUB_Task\DAL\bin\Debug\netstandard2.0\DAL.pdb
+E:\code\Aiub Task\AIUB_Task\DAL\obj\Debug\netstandard2.0\DAL.csproj.AssemblyReference.cache
+E:\code\Aiub Task\AIUB_Task\DAL\obj\Debug\netstandard2.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\Aiub Task\AIUB_Task\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+E:\code\Aiub Task\AIUB_Task\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+E:\code\Aiub Task\AIUB_Task\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+E:\code\Aiub Task\AIUB_Task\DAL\obj\Debug\netstandard2.0\DAL.dll
+E:\code\Aiub Task\AIUB_Task\DAL\obj\Debug\netstandard2.0\DAL.pdb

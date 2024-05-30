@@ -1,0 +1,50 @@
+﻿@model AIUB_Task.DTO.CuponDTO
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Coupon Update</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Update Coupon</h2>
+        <form asp-action="UpdateCupon" method="post">
+            <div class="form-group">
+                <label>Coupon Name</label>
+                <input name="Name" class="form-control" value="@Model.Name" />
+            </div>
+            <div class="form-group">
+                <label>Coupon Percentage</label>
+                <input name="Perchentage" value="@Model.Perchentage" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Expire Date</label>
+                @if (Model.Expire_date.HasValue)
+                {
+                    <input name="Expire_date" class="form-control" type="date" value="@Model.Expire_date.Value.ToString("yyyy-MM-dd")" />
+                }
+                else
+                {
+                    <input name="Expire_date" class="form-control" type="date" />
+                }
+            </div>
+            <div class="form-group">
+                <label>Status</label>
+                <select name="Status" id="statusDropdown" class="form-control">
+                    <option value="Active" @(Model.Status == "Active" ? "selected" : "")>Active</option>
+                    <option value="Inactive" @(Model.Status == "Inactive" ? "selected" : "")>Inactive</option>
+                    <option value="Expired" @(Model.Status == "Expired" ? "selected" : "")>Expired</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

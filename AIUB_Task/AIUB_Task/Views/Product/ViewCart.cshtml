@@ -1,0 +1,158 @@
+﻿@model IEnumerable<AIUB_Task.BLL.DTOs.CartProductDTO>
+
+@{
+    ViewBag.Title = "Cart";
+}
+
+<h2>Cart</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    @{
+                        string imageSrc = null;
+                        if (product.ImageData != null)
+                        {
+                            var base64Image = Convert.ToBase64String(product.ImageData);
+                            imageSrc = $"data:image/jpg;base64,{base64Image}";
+                        }
+                    }
+                    @if (imageSrc != null)
+                    {
+                        <img src="@imageSrc" class="card-img-top" alt="Product Image" />
+                    }
+                    else
+                    {
+                        <p>No image available</p>
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.Description</p>
+                        <p class="card-text">Quantity: @product.Quantity</p>
+                        <p class="card-text">Price: <span class="productPrice" data-original-price="@product.Price">@product.Price</span></p>
+                        <p class="card-text">Color: @product.SelectedColor</p>
+                        <p class="card-text">Size: @product.SelectedSize</p>
+                        <button class="btn btn-danger" onclick="removeFromCart('@product.ProductId')">Remove</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    @if (Model.Any()) // Check if the cart is not empty
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text" id="phoneNumber" name="phoneNumber" required />
+                <button class="btn btn-primary" onclick="placeOrder()">Place Order</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label for="CouponCode">Coupon Code:</label>
+                <input type="text" id="CouponCode" name="CouponCode" />
+                <button class="btn btn-secondary" onclick="checkCoupon()">Apply Coupon</button>
+                <div id="couponMessage" style="margin-top: 10px;"></div>
+            </div>
+        </div>
+    }
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    function removeFromCart(productId) {
+        $.ajax({
+            type: 'POST',
+            url: '/Product/RemoveFromCart',
+            data: { productId: productId },
+            success: function (response) {
+                location.reload();
+            },
+            error: function () {
+                alert('Error removing product from cart!');
+            }
+        });
+    }
+
+   function placeOrder() {
+    var phoneNumber = $('#phoneNumber').val();
+    var couponCode = $('#CouponCode').val(); // Get the coupon code
+    if (phoneNumber.trim() === '') {
+        alert('Please enter a phone number.');
+        return;
+    }
+
+    // Create a form and submit it
+    var form = $('<form>', {
+        action: '@Url.Action("OrderPlaceForMultipleProduct", "Product")',
+        method: 'post' // Use POST method to send data
+    });
+
+    form.append($('<input>', {
+        type: 'hidden',
+        name: 'PhoneNumber',
+        value: phoneNumber
+    }));
+
+    form.append($('<input>', {
+        type: 'hidden',
+        name: 'CouponCode',
+        value: couponCode // Add the coupon code to the form data
+    }));
+
+    $('body').append(form);
+    form.submit();
+}
+
+function calculateTotalPrice() {
+    var totalPrice = 0;
+    $('.productPrice').each(function () {
+        var price = parseFloat($(this).text());
+        var quantity = parseInt($(this).closest('.card-body').find('.card-text:eq(2)').text().split(': ')[1]);
+        totalPrice += price * quantity;
+    });
+    return totalPrice;
+}
+
+function checkCoupon() {
+    var couponCode = $('#CouponCode').val();
+    if (couponCode.trim() === '') {
+        $('#couponMessage').html('<p style="color:red;">Please enter a coupon code.</p>');
+        return;
+    }
+
+    $.ajax({
+        url: '@Url.Action("CheckCoupon", "Cupon")',
+        type: 'POST',
+        data: { Name: couponCode },
+        success: function(response) {
+            if (response.isAvailable) {
+                $('#couponMessage').html('<p style="color:green;">Coupon applied! Discount: ' + response.discount + '%</p>');
+
+                $('.productPrice').each(function() {
+                    var originalPrice = parseFloat($(this).data('original-price'));
+                    var discountedPrice = originalPrice - (originalPrice * response.discount / 100);
+                    $(this).text(discountedPrice.toFixed(2));
+                });
+            } else {
+                $('#couponMessage').html('<p style="color:red;">Coupon is not available or has expired.</p>');
+                resetPrices();
+            }
+        },
+        error: function() {
+            $('#couponMessage').html('<p style="color:red;">An error occurred while checking the coupon.</p>');
+            resetPrices();
+        }
+    });
+}
+
+function resetPrices() {
+    $('.productPrice').each(function() {
+        var originalPrice = $(this).data('original-price');
+        $(this).text(originalPrice);
+    });
+}
+</script>

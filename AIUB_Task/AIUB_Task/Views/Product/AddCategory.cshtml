@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<form action="" method="post">
+
+    <fieldset>
+        <legend></legend>
+        <div class="form-group">
+            Category Name: <input type="text" name="Name" placeholder="Category Name" value="@(Model==null ? "":Model.Name)" class="form-control" />
+            <span class="text-danger">@Html.ValidationMessage("Name")</span>
+        </div>
+
+        <button type="submit" class="btn btn-danger">Add</button>
+    </fieldset>
+</form>

@@ -1,0 +1,91 @@
+﻿@model IEnumerable<AIUB_Task.BLL.DTOs.ProductDTO>
+
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<div class="container my-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Product Details</h2>
+        <input name="Cart" value="Cart" type="button" class="btn btn-primary" onclick="window.location.href='@Url.Action("ViewCart", "Product")'" />
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="Category" class="form-label">Select Category:</label>
+                <select id="Category" class="form-select">
+                    <option value="">All</option>
+                    @foreach (var category in ViewBag.Categories)
+                    {
+                        <option value="@category.Id">@category.Name</option>
+                    }
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="productList">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-6 mb-4 product-item" data-category="@product.CategoryId">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Product Details</h4>
+                        <hr />
+                        <dl class="row">
+                            <dt class="col-sm-4">Name</dt>
+                            <dd class="col-sm-8">@product.Name</dd>
+
+                            <dt class="col-sm-4">Price</dt>
+                            <dd class="col-sm-8">@product.price</dd>
+
+                            <dt class="col-sm-4">Image</dt>
+                            <dd class="col-sm-8">
+                                @{
+                                    string imageSrc = null;
+                                    if (product.ImageData != null)
+                                    {
+                                        var base64Image = Convert.ToBase64String(product.ImageData);
+                                        imageSrc = $"data:image/jpg;base64,{base64Image}";
+                                    }
+                                }
+                                @if (imageSrc != null)
+                                {
+                                    <img src="@imageSrc" alt="Product Image" class="img-fluid" />
+                                }
+                                else
+                                {
+                                    <p>No image available</p>
+                                }
+                            </dd>
+
+                            <dd class="col-12">
+                                <form action="/Product/Details/@product.Id" method="get" class="d-inline">
+                                    <button type="submit" class="btn btn-secondary">Details</button>
+                                </form>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#Category').change(function () {
+                var selectedCategory = $(this).val();
+                $('.product-item').hide();
+                if (selectedCategory === '') {
+                    $('.product-item').show();
+                } else {
+                    $('.product-item[data-category="' + selectedCategory + '"]').show();
+                }
+            });
+        });
+    </script>
+}

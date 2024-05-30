@@ -1,0 +1,20 @@
+﻿<form action="" method="post">
+    Name: <input type="text" name="Name" placeholder="Name" value="@(Model == null ? "" : Model.Name)" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("Name")</span><br />
+
+    Email: <input type="text" name="Email" placeholder="Email" class="form-control" value="@(Model == null ? "" : Model.Email)" />
+    <span class="text-danger">@Html.ValidationMessage("Email")</span><br />
+
+    Password: <input type="password" name="Password" placeholder="Password" class="form-control" value="@(Model == null ? "" : Model.Password)" />
+    <span class="text-danger">@Html.ValidationMessage("Password")</span><br />
+
+    Confirm Password: <input type="password" name="Confirm_Password" placeholder="Confirm Password" class="form-control" value="@(Model == null ? "" : Model.Confirm_Password)" />
+    <span class="text-danger">@Html.ValidationMessage("Confirm_Password")</span><br />
+
+    Gender: <br />
+    <label><input type="radio" name="Gender" value="Male" @(Model != null && Model.Gender == "Male" ? "checked" : "")> Male</label>
+    <label><input type="radio" name="Gender" value="Female" @(Model != null && Model.Gender == "Female" ? "checked" : "")> Female</label>
+    <label><input type="radio" name="Gender" value="Other" @(Model != null && Model.Gender == "Other" ? "checked" : "")> Other</label><br />
+
+    <input type="submit" value="Sign Up" class="btn btn-success" />
+</form>

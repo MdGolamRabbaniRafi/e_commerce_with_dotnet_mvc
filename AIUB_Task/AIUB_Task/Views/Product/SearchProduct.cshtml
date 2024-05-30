@@ -1,0 +1,84 @@
+﻿@model AIUB_Task.BLL.DTOs.ProductDTO
+
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<h2>Product Details</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            @{
+                string imageSrc = null;
+                if (Model.ImageData != null)
+                {
+                    var base64Image = Convert.ToBase64String(Model.ImageData);
+                    imageSrc = $"data:image/jpg;base64,{base64Image}";
+                }
+            }
+            @if (imageSrc != null)
+            {
+                <img src="@imageSrc" alt="Product Image" class="img-fluid" />
+            }
+            else
+            {
+                <p>No image available</p>
+            }
+        </div>
+        <div class="col-md-6">
+            <h4>Product Details</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>Name</dt>
+                <dd>@Model.Name</dd>
+                <dt>Description</dt>
+                <dd>@Model.Description</dd>
+                <dt>Quantity</dt>
+                <dd>@Model.Quantity</dd>
+                <dt>Price</dt>
+                <dd>@Model.price</dd>
+                <dt>Color</dt>
+                <dd>
+                    @foreach (var color in ViewBag.ProductColor)
+                    {
+                        foreach (var c in ViewBag.Colors)
+                        {
+                            if (c.Id == color.ColorId)
+                            {
+                                <div>
+                                    @c.Name
+                                </div>
+                            }
+
+                        }
+
+
+                    }
+                            </dd>
+                <dt>Size</dt>
+                <dd>
+                    @foreach (var size in ViewBag.ProductSize)
+                    {
+                        foreach (var c in ViewBag.Sizes)
+                        {
+                            if (c.id == size.SizeId)
+                            {
+                                <div>
+                                    @c.sizeOfProduct
+                                </div>
+                            }
+
+                        }
+
+
+                    }
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
